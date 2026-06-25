@@ -22,4 +22,11 @@ This repository contains the assignments completed during my ongoing AIML Intern
    - **Key Features**: MNIST dataset loading and feature normalization, channel expansion, custom feature extraction, dropout regularization to prevent overfitting, and inline metric logging.
    - **Deliverables**: Detailed executed Jupyter Notebook, modular automated Python script, model evaluation metrics (Accuracy, Precision, Recall, F1-Score), and evaluation plots (training loss/accuracy history, confusion matrix heatmap, color-coded grid predictions preview).
 
+4. **[Cancer Detection CNN](./Cancer_Detection_CNN)**
+   - **Description**: Classify histopathology-like cell patch images into Normal vs. Malignant/Cancerous using a Convolutional Neural Network (CNN).
+   - **Models Used**: Custom 3-block Convolutional Neural Network (CNN) with Conv2D, MaxPooling2D, Dropout, and Dense layers with a Sigmoid output.
+   - **Key Features**: Self-contained H&E-stained Synthetic Cell Patch Generator (simulating pink background cytoplasm, normal spaced light purple nuclei vs. dense irregular hyperchromatic cancer nuclei), stratified train/test split, binary crossentropy loss, and prediction visualization.
+   - **Deliverables**: Detailed executed Jupyter Notebook, modular automated Python script, model evaluation metrics (Accuracy, Precision, Recall, F1-Score), and evaluation plots (training curves, confusion matrix, and visual cell predictions with probability scores).
+
+
 
