@@ -16,3 +16,10 @@ This repository contains the assignments completed during my ongoing AIML Intern
    - **Key Features**: Labeled Faces in the Wild (LFW) dataset fetching, pixel standardization, stratified train/test split, convolutional feature extraction, dropout regularization, and diagnostic plotting.
    - **Deliverables**: Detailed executed Jupyter Notebook, automated Python script, model evaluation metrics (Accuracy, Precision, Recall, F1-Score), and evaluation plots (training loss/accuracy curves, confusion matrix heatmap, color-coded sample predictions preview).
 
+3. **[Simple Image Classification MNIST](./Simple_Image_Classification_MNIST)**
+   - **Description**: Classify handwritten digits (0-9) using a lightweight Convolutional Neural Network (CNN) on the MNIST dataset.
+   - **Models Used**: Custom Convolutional Neural Network (CNN) with Conv2D, MaxPooling2D, Dropout, and Dense layers.
+   - **Key Features**: MNIST dataset loading and feature normalization, channel expansion, custom feature extraction, dropout regularization to prevent overfitting, and inline metric logging.
+   - **Deliverables**: Detailed executed Jupyter Notebook, modular automated Python script, model evaluation metrics (Accuracy, Precision, Recall, F1-Score), and evaluation plots (training loss/accuracy history, confusion matrix heatmap, color-coded grid predictions preview).
+
+
